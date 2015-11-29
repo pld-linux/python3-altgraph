@@ -12,7 +12,7 @@ Source0:	http://pypi.python.org/packages/source/a/altgraph/altgraph-%{version}.t
 URL:		http://pypi.python.org/pypi/altgraph
 BuildRequires:	rpm-pythonprov
 # if py_postclean is used
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 Requires:	python-modules
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
