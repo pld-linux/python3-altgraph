@@ -3,12 +3,12 @@
 %define 	module	altgraph
 Summary:	Graph (network) package
 Name:		python-%{module}
-Version:	0.10.1
+Version:	0.15
 Release:	1
 License:	zlib/libpng
 Group:		Development/Languages/Python
-Source0:	http://pypi.python.org/packages/source/a/altgraph/altgraph-%{version}.tar.gz
-# Source0-md5:	ebef6fff05ea80c6499ac302151a026f
+Source0:	http://pypi.debian.net/altgraph/altgraph-%{version}.tar.gz
+# Source0-md5:	e47d24b773a262ceb5e3cce79c4c991c
 URL:		http://pypi.python.org/pypi/altgraph
 BuildRequires:	rpm-pythonprov
 # if py_postclean is used
