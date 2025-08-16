@@ -5,9 +5,9 @@
 
 %define		module	altgraph
 Summary:	Graph (network) package
-Name:		python-%{module}
+Name:		python3-%{module}
 Version:	0.17.4
-Release:	1
+Release:	2
 License:	MIT
 Group:		Development/Languages/Python
 Source0:	https://files.pythonhosted.org/packages/source/a/altgraph/%{module}-%{version}.tar.gz
